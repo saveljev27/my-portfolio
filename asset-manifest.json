@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.1b4cf135.css",
-    "main.js": "/my-portfolio/static/js/main.de3eda94.js",
+    "main.js": "/my-portfolio/static/js/main.bbeb10dd.js",
     "static/media/5big.png": "/my-portfolio/static/media/5big.f7fdc105df2c9d934412.png",
     "static/media/5.png": "/my-portfolio/static/media/5.894184679192732c30d9.png",
     "static/media/1big.png": "/my-portfolio/static/media/1big.356c38a3d9900b0659cf.png",
@@ -13,15 +13,12 @@
     "static/media/moon.svg": "/my-portfolio/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
     "static/media/gitHub.svg": "/my-portfolio/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
     "static/media/gitHub-black.svg": "/my-portfolio/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
-    "static/media/instagram.svg": "/my-portfolio/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
-    "static/media/twitter.svg": "/my-portfolio/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
-    "static/media/linkedIn.svg": "/my-portfolio/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/my-portfolio/index.html",
     "main.1b4cf135.css.map": "/my-portfolio/static/css/main.1b4cf135.css.map",
-    "main.de3eda94.js.map": "/my-portfolio/static/js/main.de3eda94.js.map"
+    "main.bbeb10dd.js.map": "/my-portfolio/static/js/main.bbeb10dd.js.map"
   },
   "entrypoints": [
     "static/css/main.1b4cf135.css",
-    "static/js/main.de3eda94.js"
+    "static/js/main.bbeb10dd.js"
   ]
 }
