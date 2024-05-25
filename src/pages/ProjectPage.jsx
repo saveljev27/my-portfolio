@@ -1,12 +1,12 @@
-import { useParams } from 'react-router'
+import { useParams } from 'react-router';
 
-import { projects } from '../helpers/projects'
+import { projects } from '../utils/projects';
 
-import GithubBtn from '../components/GithubBtn/GithubBtn'
+import SocialBtn from '../components/SocialBtn/SocialBtn';
 
 const ProjectPage = () => {
-  const { id } = useParams()
-  const project = projects[id]
+  const { id } = useParams();
+  const project = projects[id];
 
   return (
     <main className="section">
@@ -21,13 +21,18 @@ const ProjectPage = () => {
           />
 
           <div className="project-details__desc">
-            <p>{project.skills}</p>
+            <p className="project-details__desc-title">{project.skills}</p>
+            <p className="project-details__desc-about">{project.desc}</p>
           </div>
-          {project.github ? <GithubBtn link={project.github} /> : ''}
+          {project.github ? (
+            <SocialBtn gitLink={project.github} vercelLink={project.vercel} />
+          ) : (
+            ''
+          )}
         </div>
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default ProjectPage
+export default ProjectPage;

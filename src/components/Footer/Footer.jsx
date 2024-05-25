@@ -1,6 +1,7 @@
-import './Footer.styles.css'
+import './Footer.styles.css';
 
-import gitHub from '../../img/icons/gitHub.svg'
+import gitHub from '../../img/icons/gitHub.svg';
+import linkedin from '../../img/icons/linkedIn.svg';
 
 const Footer = () => {
   return (
@@ -13,6 +14,11 @@ const Footer = () => {
                 <img src={gitHub} alt="Link" />
               </a>
             </li>
+            <li className="social__item">
+              <a href="https://www.linkedin.com/in/olegs-saveljevs/">
+                <img src={linkedin} alt="Link" />
+              </a>
+            </li>
           </ul>
           <div className="copyright">
             <p>© 2024</p>
@@ -20,7 +26,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

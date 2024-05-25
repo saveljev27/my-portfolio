@@ -1,6 +1,6 @@
-import Project from '../components/Project/Project'
+import Project from '../components/Project/Project';
 
-import { projects } from '../helpers/projects'
+import { projects } from '../utils/projects';
 
 const Projects = () => {
   return (
@@ -14,7 +14,7 @@ const Projects = () => {
         </ul>
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

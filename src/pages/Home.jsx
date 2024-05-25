@@ -1,5 +1,5 @@
-import Header from '../components/Header/Header'
-import Section from '../components/Section/Section'
+import Header from '../components/Header/Header';
+import Section from '../components/Section';
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
       <Header />
       <Section />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Contacts = () => {
   return (
@@ -9,7 +9,7 @@ const Contacts = () => {
         <ul class="content-list">
           <li class="content-list__item">
             <h2 class="title-2">Location</h2>
-            <p>Riga, Latvia</p>
+            <p>Canary Islands, Spain</p>
           </li>
           <li class="content-list__item">
             <h2 class="title-2">Telegram / WhatsApp</h2>
@@ -26,7 +26,7 @@ const Contacts = () => {
         </ul>
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default Contacts
+export default Contacts;
