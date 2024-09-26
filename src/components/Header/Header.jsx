@@ -20,7 +20,7 @@ const Header = () => {
             knowledge and time to get the best results and solutions.
           </p>
         </div>
-        <a href="/cv.pdf" download="cv" className="btn">
+        <a href="/cv_os.pdf" download="cv" className="btn">
           Download CV
         </a>
       </div>

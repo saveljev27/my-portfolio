@@ -1,21 +1,32 @@
 import carhire from './../img/projects/carhire.png';
-import gptprompt from './../img/projects/gptprompt.png';
 import tshirts from './../img/projects/tshirts.png';
+import brainblurb from './../img/projects/brainblurb.png';
+import deya from './../img/projects/deya.png';
 
 export const projects = [
   {
     id: 0,
-    title: 'GPT Prompts NextJS',
-    img: gptprompt,
-    imgBig: gptprompt,
-    skills: 'React, Next.js, NextAuth, MongoDB, Tailwind',
-    desc: 'This project was made to create your own prompts for GPT chat. The project is made using React, Next.js and MongoDB to store the data. The user can sign up using a Google account. Each authorized user has a profile where they can create, update, or delete their own prompt. Unauthorized users can also view the prompts and visit other profiles.',
-    github: 'https://github.com/saveljev27/gpt-prompts-nextjs',
-    vercel: 'https://gpt-prompts-nextjs.vercel.app/',
+    title: 'Brainblurb Studio',
+    img: brainblurb,
+    imgBig: brainblurb,
+    skills: 'React, Next.js, Directus, JavaScript, Tailwind',
+    desc: 'This project was made to for Brainblurb Startup Studio',
+    github: 'https://github.com/saveljev27/brainblurb',
+    vercel: 'https://brainblurb-test.vercel.app/',
   },
   {
     id: 1,
-    title: 'Car Hire NextJS',
+    title: 'Deya Construction',
+    img: deya,
+    imgBig: deya,
+    skills: 'React, Next.js, Axios, Bootstrap, Redux-thunk',
+    desc: '',
+    github: 'https://github.com/saveljev27/deya',
+    vercel: 'https://deya-co.nl/',
+  },
+  {
+    id: 2,
+    title: 'Car Hire',
     img: carhire,
     imgBig: carhire,
     skills:
@@ -25,8 +36,8 @@ export const projects = [
     vercel: 'https://car-rent-next-js-xi.vercel.app/',
   },
   {
-    id: 2,
-    title: 'T-Shirt Shop ReactJS',
+    id: 3,
+    title: 'T-Shirt Shop',
     img: tshirts,
     imgBig: tshirts,
     skills: 'React, Redux Toolkit, Mockapi, TypeScript, SASS',

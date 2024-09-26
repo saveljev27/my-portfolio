@@ -8,9 +8,9 @@ const Section = () => {
           <li className="content-list__item">
             <h2 className="title-2">Stack</h2>
             <p>
-              HTML, CSS, Tailwind | JavaScript, React.js, Redux Next.js, Auth.js
-              | Moongose, PrismaDb | MongoDB, MySql | TS | GIT, Bash | Slack |
-              VSCode | SASS | Figma
+              HTML, CSS, Tailwind, Bootstrap | JavaScript, React.js, Redux,
+              Next.js | Moongose, PrismaDb | MongoDB, MySql | TS | GIT, Bash |
+              Directus | SASS | Figma | Adobe | RestAPI
             </p>
           </li>
         </ul>
