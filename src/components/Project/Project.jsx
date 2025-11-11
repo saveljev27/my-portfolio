@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 import './Project.styles.css';
 
 const Project = ({ title, img, id }) => {
